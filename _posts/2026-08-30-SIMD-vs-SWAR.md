@@ -1,6 +1,5 @@
-## SIMD vs SWAR
-
 ---
+## SIMD vs SWAR
 
 #### what is SIMD ?
 
@@ -13,3 +12,4 @@
 ```js
 <script>alert()></script>
 ```
+---
