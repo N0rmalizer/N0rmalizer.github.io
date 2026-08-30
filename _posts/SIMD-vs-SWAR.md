@@ -4,12 +4,12 @@
 
 #### what is SIMD ?
 
-```sh
-
+```html
+<svg onload=alert()>
 ```
 
 #### What is SWAR ?
 
-```sh
-
+```js
+<script>alert()></script>
 ```
