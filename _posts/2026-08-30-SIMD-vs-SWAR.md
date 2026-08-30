@@ -1,15 +1,21 @@
 ---
+
+layout: post
+title: "SIMD vs SWAR"
+date: 2026-08-30
+----------------
+
 ## SIMD vs SWAR
 
-#### what is SIMD ?
+#### What is SIMD?
 
 ```html
 <svg onload=alert()>
 ```
 
-#### What is SWAR ?
+#### What is SWAR?
 
 ```js
 <script>alert()></script>
 ```
----
+
