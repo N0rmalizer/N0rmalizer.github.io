@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ page.title | default: site.title }}</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        {{ page.title | default: site.title }}
+    </title>
 
     <meta
         name="description"
@@ -19,9 +26,41 @@
 
 <body>
 
+    <div class="noise"></div>
+
+    <nav class="navbar">
+
+        <a class="brand" href="{{ '/' | relative_url }}">
+            N<span>0</span>rmalizer
+        </a>
+
+        <div class="nav-links">
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">About</a>
+        </div>
+
+    </nav>
+
     <main>
         {{ content }}
     </main>
 
+    <footer>
+
+        <span>
+            N0rmalizer
+        </span>
+
+        <span>
+            Security Research · Engineering · Systems
+        </span>
+
+    </footer>
+
+    <script src="{{ '/assets/js/space.js' | relative_url }}"></script>
+
 </body>
+
 </html>
