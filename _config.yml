@@ -1,0 +1,11 @@
+title: N0rmalizer
+description: i like Security Research & Software Engineering
+url: "https://n0rmalizer.github.io"
+
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
