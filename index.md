@@ -1,6 +1,6 @@
 ---
 title: N0rmalizer
-description: Security Research & Engineering
+description: i like Security Research & Software Engineering
 ---
 
 <div class="hero">
